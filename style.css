@@ -1,11 +1,17 @@
+body {
+    background: hsl(216, 12%, 8%);
+}
 .rate {
+    @import url(https://fonts.google.com/specimen/Overpass);
   background-color: rgb(62, 55, 55);
   color: white;
   margin: 80px;
+  margin-right: 300px;
   border-radius: 10px;
   padding: 30px;
   width: 250px;
   height: 300px;
+  font-family: Overpass;
 }
 
 #image {
@@ -20,7 +26,7 @@
 }
 
 p {
-  color: rgb(224, 206, 206);
+  color: hsl(0, 0%, 100%);
 }
 
 #rating-container {
@@ -36,18 +42,18 @@ button {
   border-radius: 40px;
   padding: 7px;
   font-size: 14px;
-  background-color: rgb(178, 171, 171);
-  color: rgb(224, 206, 206);
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%));
   margin-bottom: 20px;
 }
 .button :hover {
-  background-color: rgb(236, 132, 13);
+  background-color: hsl(25, 97%, 53%);
 }
 
 .submit {
   width: 50vw;
   font-weight: bold;
-  background-color: rgb(237, 155, 3);
+  background-color: hsl(25, 97%, 53%);
   color: black;
   width: 250px;
 }
