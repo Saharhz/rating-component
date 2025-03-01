@@ -2,8 +2,7 @@ body {
     background: hsl(216, 12%, 8%);
 }
 .rate {
-    @import url(https://fonts.google.com/specimen/Overpass);
-  background-color: rgb(62, 55, 55);
+  background-color: rgb(62, 55, 55);;
   color: white;
   margin: 80px;
   margin-right: 300px;
@@ -11,7 +10,8 @@ body {
   padding: 30px;
   width: 250px;
   height: 300px;
-  font-family: Overpass;
+  font-family: "Overpass", sans-serif;
+  font-weight: 400-700;
 }
 
 #image {
